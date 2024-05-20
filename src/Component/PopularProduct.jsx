@@ -4,7 +4,7 @@ import Item from "./Item";
 
 const PopularProduct = () => {
   return (
-    <div className="flex justify-center mt-14">
+    <div className="flex justify-center my-14">
     <div>
       <h1 className="text-6xl text-center my-5">Popular Product</h1>
       <div className=" grid grid-cols-4 gap-10">

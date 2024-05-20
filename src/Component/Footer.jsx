@@ -4,8 +4,8 @@ import ig_icon from './Assets/ig_icon.png'
 import telegram_icon from './Assets/telegram_icon.png'
 
 const Footer = () => {
-  return (
-    <div className='bg-blue-500 w-100% h-60 mt-14 '>
+  return (  
+    <div className='bg-blue-500 w-100% h-60  '>
         <ul className='flex flex-row justify-center gap-x-14 py-14 '>
             <li>
                 <img src={facebook_icon } alt=''/>

@@ -7,6 +7,7 @@ import Home from './Page/Home';
 import Contact from './Page/Contact';
 import Aboutus from './Page/Aboutus';
 import Footer from './Component/Footer';
+import Login from './Page/Login';
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
           <Route path='/'element={<Home/>}/>
           <Route path='/contact'element={<Contact/>}/>
           <Route path='/aboutus'element={<Aboutus/>}/>
+          <Route path='/loginsignup'element={<Login/>}/>
         </Routes>
+        
       </BrowserRouter>
       
       <Footer/>

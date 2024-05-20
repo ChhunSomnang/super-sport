@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [menu, setMenu] = useState('')
     return (
-        <div className=" py-3 px-20">
+        <div className=" py-3 px-20 mx-10">
       <div className="flex flex-row items-center justify-between p-0 m-0 space-x-10 ">
         <h1 className="text-5xl font-semibold cursor-pointer">
           SuperSport.
@@ -91,6 +92,7 @@ const Navbar = () => {
             </svg>
           </li>
           <li>
+            <Link to='/loginsignup'>
             <button className="flex flex-row">
               Login
               <svg
@@ -108,8 +110,8 @@ const Navbar = () => {
                 />
               </svg>
             </button>
+            </Link>
           </li>
-          <li></li>
         </ul>
       </div>
     </div>
